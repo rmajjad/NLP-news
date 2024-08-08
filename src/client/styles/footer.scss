@@ -1,0 +1,14 @@
+
+footer {
+  $bg-light: #f8f8f8;
+  $primary-color: #007bff;
+
+  padding: 1em;
+  background-color: $bg-light;
+  border-top: 1px solid $primary-color;
+
+  p {
+    text-align: center;
+    color: #333;
+  }
+}

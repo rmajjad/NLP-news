@@ -1,0 +1,30 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  color: #333;
+
+  main {
+    flex: 2;
+    margin: 0 2em;
+
+    section {
+      max-width: 800px;
+      margin: 50px auto;
+
+      .result {
+        font-size: 1.2em;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 1em;
+      }
+
+      #results {
+        .result-part {
+          margin-bottom: 0.8em;
+        }
+      }
+    }
+  }
+}

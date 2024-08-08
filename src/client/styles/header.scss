@@ -1,0 +1,21 @@
+header {
+  $bg-light: #f8f8f8;
+  $primary-color: #007bff;
+  $font-color: #333;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: $bg-light;
+  border-bottom: 1px solid $primary-color;
+
+  h1 {
+    text-align: center;
+    font-size: 2em;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+
+    color: $primary-color;
+  }
+}

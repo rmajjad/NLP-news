@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>NLP News</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Evaluate Nlp News </h1>
+    </header>
+    <main>
+      <section>
+        <form
+          id="url-form"
+          method="post"
+          onsubmit="return Client.handleSubmit(event)"
+        >
+          <label for="name">Insert a URL to be examined:</label>
+          <input
+            id="name"
+            type="text"
+            name="url"
+            placeholder="URL"
+            required
+          />
+          <div class="feedback-wrapper"></div>
+          <button id="submit-button" type="submit">Click to Examined</button>
+          <div class="loader">Loading....</div>
+          <div class="error-wrapper"></div>
+        </form>
+      </section>
+
+      <section>
+        <p class="result"><strong>Examined Results:</strong></p>
+        <div id="results"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy;2024</p>
+      <p>Made By Rama Majjad</p>
+    </footer>
+  </body>
+</html>
