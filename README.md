@@ -11,13 +11,13 @@ This project showcases a Single Page Application (SPA) built entirely from scrat
 1. **Install Dependencies**
    ```bash
    npm install
-2. **Get Started**
-    - to install dist folder:
-    ```npm run build-prod
+2. **Get Started to install dist folder**
+    
+    ```bash
+    npm run build-prod
 
-    ```npm run build-dev
-
-    - to start the backend
-    ```npm run start
+3. **to start the backend**
+    ```bash 
+    npm run start
 
     
